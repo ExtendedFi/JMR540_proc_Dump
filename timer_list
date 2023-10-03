@@ -1,0 +1,81 @@
+Timer List Version: v0.7
+HRTIMER_MAX_CLOCK_BASES: 4
+now at 3899526819 nsecs
+
+cpu: 0
+ clock 0:
+  .base:       c0a8d308
+  .index:      0
+  .resolution: 1 nsecs
+  .get_time:   ktime_get
+  .offset:     0 nsecs
+active timers:
+ #0: tick_cpu_sched, tick_sched_timer, S:01, hrtimer_start_range_ns, swapper/0
+ # expires at 3900000000-3900000000 nsecs [in 473181 to 473181 nsecs]
+ #1: <ce227ad8>, hrtimer_wakeup, S:01, hrtimer_start_range_ns, bootlogd/182
+ # expires at 3956830413-3957330406 nsecs [in 57303594 to 57803587 nsecs]
+ #2: <cd871f28>, hrtimer_wakeup, S:01, hrtimer_start_range_ns, qti/455
+ # expires at 4428697549-4428747549 nsecs [in 529170730 to 529220730 nsecs]
+ #3: <ce3d3f28>, hrtimer_wakeup, S:01, hrtimer_start_range_ns, sleep/435
+ # expires at 5033066247-5033116247 nsecs [in 1133539428 to 1133589428 nsecs]
+ #4: <cf033ad8>, hrtimer_wakeup, S:01, hrtimer_start_range_ns, init/1
+ # expires at 8288678799-8293678792 nsecs [in 4389151980 to 4394151973 nsecs]
+ #5: sched_clock_timer, sched_clock_poll, S:01, hrtimer_start, swapper/0
+ # expires at 3131747532109-3131747532109 nsecs [in 3127848005290 to 3127848005290 nsecs]
+ clock 1:
+  .base:       c0a8d340
+  .index:      1
+  .resolution: 1 nsecs
+  .get_time:   ktime_get_real
+  .offset:     1604616982 nsecs
+active timers:
+ clock 2:
+  .base:       c0a8d378
+  .index:      2
+  .resolution: 1 nsecs
+  .get_time:   ktime_get_boottime
+  .offset:     0 nsecs
+active timers:
+ clock 3:
+  .base:       c0a8d3b0
+  .index:      3
+  .resolution: 1 nsecs
+  .get_time:   ktime_get_clocktai
+  .offset:     1604616982 nsecs
+active timers:
+  .expires_next   : 3900000000 nsecs
+  .hres_active    : 1
+  .nr_events      : 977
+  .nr_retries     : 1
+  .nr_hangs       : 0
+  .max_hang_time  : 0 nsecs
+  .nohz_mode      : 2
+  .last_tick      : 550000000 nsecs
+  .tick_stopped   : 0
+  .idle_jiffies   : 4294937350
+  .idle_calls     : 229
+  .idle_sleeps    : 69
+  .idle_entrytime : 2249350779 nsecs
+  .idle_waketime  : 550247239 nsecs
+  .idle_exittime  : 550279947 nsecs
+  .idle_sleeptime : 204651981 nsecs
+  .iowait_sleeptime: 7677865 nsecs
+  .last_jiffies   : 4294937520
+  .next_jiffies   : 4294937521
+  .idle_expires   : 560000000 nsecs
+jiffies: 4294937685
+
+Tick Device: mode:     1
+Per CPU device: 0
+Clock Event Device: arch_mem_timer
+ max_delta_ns:   111848106728
+ min_delta_ns:   1000
+ mult:           82463372
+ shift:          32
+ mode:           3
+ next_event:     3900000000 nsecs
+ set_next_event: arch_timer_set_next_event_virt_mem
+ set_mode:       arch_timer_set_mode_virt_mem
+ event_handler:  hrtimer_interrupt
+ retries:        0
+

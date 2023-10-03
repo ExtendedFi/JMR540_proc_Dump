@@ -1,0 +1,21 @@
+000601d0-000611cf : vmpm
+0006c000-0006c1ff : phy_csr
+  0006c000-0006c1ff : phy_csr
+004a8000-004a9fff : tsens_physical
+004ab000-004ab003 : pshold-base
+01000000-012fffff : /soc/pinctrl@1000000
+0183e000-0183e003 : restart_reg
+04020000-0402003f : rmb_base
+04080000-040800ff : qdsp6_base
+07824900-07824aff : mmc0
+07864900-07864aff : mmc1
+078b3000-078b31ff : msm_serial_hsl
+078b6000-078b65ff : spi_qsd
+078b8000-078b85ff : 78b8000.i2c
+078d9000-078d93ff : core
+0b017000-0b017fff : msm-watchdog
+80000000-829fffff : System RAM
+  80008000-80a2e4ab : Kernel code
+  80a76000-80c5fc5f : Kernel data
+87500000-879fffff : System RAM
+88000000-8fffffff : System RAM
